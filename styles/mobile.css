@@ -14,10 +14,6 @@
     height: inherit;
   }
 
-  .swiper-text {
-    top: 50%;
-  }
-
   .main__teasers {
     flex-direction: column;
 
