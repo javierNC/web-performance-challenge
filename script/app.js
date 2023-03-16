@@ -66,18 +66,11 @@ const layoutTrashing = (n) => {
   }
 };
 
-const JSblocking = () => {
-  let n = 1000000;
-  while (n) { n--;}
-}
-
 const initApp = () => {
   const lazyLoadInstance = new LazyLoad();
   
   layoutTrashing(20);
   dynamicContent();
-  setTimeout(() => console.log('Hello World!'), 3000);
-  JSblocking();
   cookieLayerInit();
   lazyLoadInstance.update();
 };
