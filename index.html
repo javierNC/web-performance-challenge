@@ -7,8 +7,7 @@
 
   <title>The Rum Diary</title>
   
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="preload" href="styles/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="screen and (min-width: 200px) and (max-width: 750px)">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
@@ -198,15 +197,15 @@
         <iframe src="https://player.vimeo.com/video/44265326?h=1e8b36c00b&autoplay=1&loop=1&byline=0&muted=1&controls=0 " width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         <form class="form__base">
           <div class="form__intro">Something about lighthouses, describing point of the video we are putting here to prove how awesome they really are, no.</div>
-          <div class="from__control">
+          <div class="form__control">
             <label for="name" class="form__label">Name:</label>
             <input id="name" type="text" autocomplete="name">
           </div>
-          <div class="from__control">
+          <div class="form__control">
             <label for="text" class="form__label">Please share with us why do you think lighthouses are awesome: </label><br>
             <textarea id="text"></textarea>
           </div>
-          <button class="from__button" type="submit" onclick="alert('Submitting using way too much JavaScript...')">Submit</button>
+          <button class="form__button" type="submit" onclick="alert('Submitting using way too much JavaScript...')">Submit</button>
         </form>
       </section>
     </div>

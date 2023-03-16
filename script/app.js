@@ -30,7 +30,7 @@ const cookieLayerInit = () => {
     <h2 class="cookieLayer__title">Do you like cookies?</h2>
     <p class="cookieLayer__text">This is the best chocolate chip cookies recipe ever! No funny ingredients, no chilling time, etc. Just a simple, straightforward, amazingly delicious, doughy yet still fully cooked, chocolate chip cookie that turns out perfectly every single time!</p>
     <p class="cookieLayer__text">The first step in making these easy chocolate chip cookies to to combine the dry ingredients in a medium size bowl. Next, cream together butter and sugars. Add the eggs & vanilla and beat to combine. Add dry ingredients and stir until just combined. Then add the chocolate chips and beat until they are evenly distributed throughout the dough.</p>
-    <button class="cookieLayer__button" button onclick="acceptCookies()">I solemny swear I will bake these cookies</button>
+    <button class="cookieLayer__button" onclick="acceptCookies()">I solemny swear I will bake these cookies</button>
     <div class="cookieLayer__disclaimer">This box is made using <s>Vue.js</s> Vanilla JS</div>
   </div>
   `
